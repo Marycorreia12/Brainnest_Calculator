@@ -19,7 +19,7 @@ body{
 
 .wrapper{
     width: 420px;
-    height: 640px;
+    height: 620px;
     background: #090909;
     border-radius: 60px;
 }
@@ -35,7 +35,7 @@ body{
 
 .input{
     background: linear-gradient(360deg, #E8EAD8 0%, #D2D6B7 48.12%, #DBDEC1 50.76%, #EDEFE0 100%);
-    width: 100%;
+    width: 90%;
     min-height: 65px;
     padding: 0 14px;
     text-align:  end;
@@ -83,7 +83,5 @@ button{
 }
 
 .equal{
-    grid-row: 5/7;
-    grid-column: 4/5;
     background: linear-gradient(180deg, #FC8827 0%, #CF650C 100%);
 }
