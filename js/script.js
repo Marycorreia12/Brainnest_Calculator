@@ -47,3 +47,14 @@ function operate(operator, num1, num2){
 
 let testingOperator = operate('*', 25, 5);
 console.log(testingOperator);
+
+function display(){
+    const buttons = document.querySelectorAll('button');
+    buttons.forEach((button) => {
+        button.addEventListener('click', () => {
+            console.log(button.value);
+        });
+    }) ;
+}
+
+let resultDisplay = display();

@@ -35,7 +35,7 @@ body{
 
 .input{
     background: linear-gradient(360deg, #E8EAD8 0%, #D2D6B7 48.12%, #DBDEC1 50.76%, #EDEFE0 100%);
-    width: 90%;
+    width: 94%;
     min-height: 65px;
     padding: 0 14px;
     text-align:  end;
@@ -84,4 +84,21 @@ button{
 
 .equal{
     background: linear-gradient(180deg, #FC8827 0%, #CF650C 100%);
+}
+
+@media(max-width: 430px){
+    .wrapper{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+    
+    .buttons{
+        row-gap: 5px;
+        column-gap: 5px;
+        background: linear-gradient(360deg, #141414 1.56%, rgba(0, 0, 0, 0.21) 100%);
+        padding: 18px 13px 13px 13px;
+    }
+
+   
 }
