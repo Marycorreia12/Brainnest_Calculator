@@ -153,7 +153,6 @@ function calculate(inputOperator) {
 
     if (operator && calculator.secondNumber)  {
         calculator.operator = inputOperator;
-        console.log(calculator);
         return;
       }
 
