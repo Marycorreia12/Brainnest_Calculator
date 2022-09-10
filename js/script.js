@@ -92,8 +92,8 @@ const target = e.target;
         return;
     }
 
-displayNumber(target.value);
-updateDisplay();
+        displayNumber(target.value);
+        updateDisplay();
 });
 
 function undo(){
@@ -150,6 +150,12 @@ function calculate(inputOperator) {
     const operator  = calculator.operator;
    
     const inputValue = parseFloat(displayValue);
+
+    if (operator && calculator.secondNumber)  {
+        calculator.operator = inputOperator;
+        console.log(calculator);
+        return;
+      }
 
     if (firstNumber == null) {
         calculator.firstNumber = inputValue;
