@@ -31,6 +31,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 138px 10px 118px 10px;
+    overflow: hidden;
 }
 
 .input{
@@ -46,6 +47,8 @@ body{
     justify-content: end;
     color: #000000;
     opacity: 0.8;
+    outline: none;
+    border: none;
 }
 
 .buttons{
@@ -75,11 +78,6 @@ button{
 
 .brown{
     background: linear-gradient(180deg, #756053 0%, #574337 100%);
-}
-
-.zero{
-    grid-column: 1/3;
-    text-align: start;
 }
 
 .equal{
